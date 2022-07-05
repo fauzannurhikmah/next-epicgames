@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "thumbnail": "/post/3.jpg",
+        "category": "Frontend",
+        "date": "20 july, 2022",
+        "title": "lorem ipsum the legendary random text",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptates voluptatum molestiae sint, pariatur culpa mollitia id officia facilis cumque.",
+        "authorAvatar": "/user/ganyu.webp",
+        "authorName": "Ganyu",
+        "authorJob": "Archer Hydro"
+    },
+    {
+        "id": 2,
+        "thumbnail": "/post/5.jpg",
+        "category": "Software Engineering",
+        "date": "20 july, 2022",
+        "title": "lorem ipsum the legendary random text",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptates voluptatum molestiae sint, pariatur culpa mollitia id officia facilis cumque.",
+        "authorAvatar": "/user/lumine3.png",
+        "authorName": "Lumine",
+        "authorJob": "Traveler"
+    },
+    {
+        "id": 3,
+        "thumbnail": "/post/12.jpg",
+        "category": "Data Science",
+        "date": "20 july, 2022",
+        "title": "lorem ipsum the legendary random text",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptates voluptatum molestiae sint, pariatur culpa mollitia id officia facilis cumque.",
+        "authorAvatar": "/user/keqing.jpg",
+        "authorName": "Keqing",
+        "authorJob": "Electro Hime"
+    }
+]
