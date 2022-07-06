@@ -31,7 +31,7 @@ export default function Navbar() {
                                     </li>
                                 )}
                                 {navList.map(({ text, link }) => (
-                                    <li key={text}><Link href={link} pageName={text}><a className='hover:text-gray-300'>{text}</a></Link></li>
+                                    <li key={text}><Link href={link}><a className='hover:text-gray-300'>{text}</a></Link></li>
                                 ))}
 
                             </ul>
