@@ -5,7 +5,7 @@ import CardPost from '@components/cardPost'
 import postList from 'utils/posts.json'
 
 const Posts: NextPage = () => {
-    const [posts, setposts] = useState(postList);
+    const [posts, setPosts] = useState(postList);
     return (
         <Layout>
             <div className="container">
