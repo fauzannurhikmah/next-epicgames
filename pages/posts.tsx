@@ -7,9 +7,8 @@ import postList from 'utils/posts.json'
 const Posts: NextPage = () => {
     const [posts, setPostsList] = useState(postList);
     const [isLoading, setIsLoading] = useState(false);
+    const numbers=[1,2,3,4,5]
 
-
-    // lorem ipsum dolor !!!!
     return (
         <Layout>
             <div className="container">
