@@ -7,6 +7,8 @@ import postList from 'utils/posts.json'
 const Posts: NextPage = () => {
     const [posts, setPostsList] = useState(postList);
     const [isLoading, setIsLoading] = useState(false);
+    const [isLoading1, setIsLoading1] = useState(false);
+    const [isLoading2, setIsLoading2] = useState(false);
 
     const sortNumber=[1,2,3,4,5]
     return (
