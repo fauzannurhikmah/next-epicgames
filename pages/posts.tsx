@@ -5,7 +5,10 @@ import CardPost from '@components/cardPost'
 import postList from 'utils/posts.json'
 
 const Posts: NextPage = () => {
-    const [posts, setPosts] = useState(postList);
+    const [posts, setPostsList] = useState(postList);
+    const [isLoading, setIsLoading] = useState(false);
+
+    const sortNumber=[1,2,3,4,5]
     return (
         <Layout>
             <div className="container">
