@@ -5,8 +5,9 @@ import CardPost from '@components/cardPost'
 import postList from 'utils/posts.json'
 
 const Posts: NextPage = () => {
-    const [posts, setPosts] = useState(postList);
-    // this is sample for git stash
+    const [posts, setPostsList] = useState(postList);
+
+    // lorem ipsum dolor sit
     return (
         <Layout>
             <div className="container">
