@@ -9,7 +9,7 @@ const Posts: NextPage = () => {
     const [sampleData, setSampleData] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
 
-    // lorem ipsum dolor sit
+    const sortNumber=[1,2,3,4,5]
     return (
         <Layout>
             <div className="container">
