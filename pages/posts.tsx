@@ -8,8 +8,6 @@ const Posts: NextPage = () => {
     const [posts, setPostsList] = useState(postList);
     const [isLoading, setIsLoading] = useState(false);
 
-
-    // lorem ipsum dolor !!!!
     return (
         <Layout>
             <div className="container">
