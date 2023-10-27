@@ -6,6 +6,7 @@ import postList from 'utils/posts.json'
 
 const Posts: NextPage = () => {
     const [posts, setPosts] = useState(postList);
+    // this is sample for git stash
     return (
         <Layout>
             <div className="container">
