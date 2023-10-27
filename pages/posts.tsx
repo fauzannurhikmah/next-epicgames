@@ -6,6 +6,7 @@ import postList from 'utils/posts.json'
 
 const Posts: NextPage = () => {
     const [posts, setPostsList] = useState(postList);
+    const [sampleData, setSampleData] = useState([]);
 
     // lorem ipsum dolor sit
     return (
